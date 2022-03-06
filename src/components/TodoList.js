@@ -7,8 +7,10 @@ export default function TodoList(props) {
     <div className='list'>
         <div className="todo">
             <span style={{textDecoration: todo.isDone ? 'line-through': ''}}>{todo.text}</span>
-            <button onClick={() => markTodo(index)}>✓</button>
-            <button className='remove' onClick={() => removeTodo(index)}>✕</button>
+            <div className="btn">
+              <button onClick={() => markTodo(index)}>✓</button>
+              <button className='remove' onClick={() => removeTodo(index)}>✕</button>
+            </div>
         </div>
     </div>
   )
