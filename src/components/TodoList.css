@@ -1,0 +1,32 @@
+.list {
+    max-width: 768px;
+    height: 50px;
+    margin: .5rem;
+}
+.todo {
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(189,173,173,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(189,173,173,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(189,173,173,0.75);
+}
+.todo span {
+    font-size: 1.5rem;
+    margin-right: .4rem;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+.todo button{
+    cursor: pointer;
+    width: 2.5rem;
+    margin: .2rem;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 15px;
+}
+.todo .remove {
+    background-color: red;
+    color: white;
+}
